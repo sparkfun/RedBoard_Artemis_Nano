@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4948,57 +4948,6 @@ No plating, no silk outline.
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="SAMTECH_FTSH-105-01">
-<description>&lt;h3&gt;ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.05"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.samtec.com/ftppub/cpdf/FTSH-1XX-XX-XXX-DV-XXX-MKT.pdf"&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CORTEX_DEBUG&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="3.175" y1="1.7145" x2="3.175" y2="-1.7145" width="0.127" layer="51"/>
-<wire x1="3.175" y1="-1.7145" x2="-3.175" y2="-1.7145" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="-1.7145" x2="-3.175" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="1.7145" x2="3.175" y2="1.7145" width="0.127" layer="51"/>
-<rectangle x1="-0.2032" y1="1.7145" x2="0.2032" y2="2.921" layer="51"/>
-<rectangle x1="1.0668" y1="1.7145" x2="1.4732" y2="2.921" layer="51"/>
-<rectangle x1="2.3368" y1="1.7145" x2="2.7432" y2="2.921" layer="51"/>
-<rectangle x1="-1.4732" y1="1.7145" x2="-1.0668" y2="2.921" layer="51"/>
-<rectangle x1="-2.7432" y1="1.7145" x2="-2.3368" y2="2.921" layer="51"/>
-<rectangle x1="-0.2032" y1="-2.921" x2="0.2032" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="-1.4732" y1="-2.921" x2="-1.0668" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="-2.7432" y1="-2.921" x2="-2.3368" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="1.0668" y1="-2.921" x2="1.4732" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="2.3368" y1="-2.921" x2="2.7432" y2="-1.7145" layer="51" rot="R180"/>
-<smd name="6" x="0" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="8" x="1.27" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="10" x="2.54" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="4" x="-1.27" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="2" x="-2.54" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="1" x="-2.54" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="3" x="-1.27" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="5" x="0" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="7" x="1.27" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="9" x="2.54" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<wire x1="-3.175" y1="-1.7145" x2="-3.175" y2="1.7145" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="1.7145" x2="-3.0226" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="3.0226" y1="1.7145" x2="3.175" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.7145" x2="3.175" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.7145" x2="3.0226" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="-3.0226" y1="-1.7145" x2="-3.175" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="-2.0574" y1="1.7145" x2="-1.7526" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="-0.7874" y1="1.7145" x2="-0.4826" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="0.4826" y1="1.7145" x2="0.7874" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="1.7526" y1="1.7145" x2="2.0574" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="2.0574" y1="-1.7145" x2="1.7526" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="0.7874" y1="-1.7145" x2="0.4826" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="-0.4826" y1="-1.7145" x2="-0.7874" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="-1.7526" y1="-1.7145" x2="-2.0574" y2="-1.7145" width="0.2032" layer="21"/>
-<text x="-1.3462" y="0.4572" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.7018" y="-0.9652" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
 <package name="PAD.02X.02">
 <description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
 Used as a test point connection for pogo pins or other debugging tools. 
@@ -5591,6 +5540,47 @@ Used as a test point connection for pogo pins or other debugging tools.
 <vertex x="4.02" y="-0.365" curve="-180"/>
 <vertex x="4.62" y="-0.365"/>
 </polygon>
+</package>
+<package name="2X5-SMD-1.27MM">
+<description>Shrouded SMD connector for JTAG and SWD applications.</description>
+<wire x1="-4.765" y1="-2.65" x2="-4.765" y2="2.65" width="0.127" layer="51"/>
+<wire x1="-4.765" y1="2.65" x2="4.765" y2="2.65" width="0.127" layer="51"/>
+<wire x1="4.765" y1="-2.65" x2="-4.765" y2="-2.65" width="0.127" layer="51"/>
+<smd name="6" x="0" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<smd name="8" x="-1.27" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<smd name="10" x="-2.54" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<smd name="4" x="1.27" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<smd name="2" x="2.54" y="-1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<smd name="1" x="2.54" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<smd name="3" x="1.27" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<smd name="5" x="0" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<smd name="7" x="-1.27" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<smd name="9" x="-2.54" y="1.95" dx="0.76" dy="2.4" layer="1" rot="R180"/>
+<wire x1="4.765" y1="2.65" x2="4.765" y2="-2.65" width="0.127" layer="51"/>
+<rectangle x1="-1.0575" y1="-1.9625" x2="1.0575" y2="-1.5525" layer="51" rot="R270"/>
+<wire x1="3.495" y1="-1.65" x2="-3.495" y2="-1.65" width="0.1524" layer="51"/>
+<wire x1="-3.495" y1="-1.65" x2="-3.495" y2="1.65" width="0.1524" layer="51"/>
+<wire x1="-3.495" y1="1.65" x2="3.495" y2="1.65" width="0.1524" layer="51"/>
+<wire x1="3.495" y1="1.65" x2="3.495" y2="-1.65" width="0.1524" layer="51"/>
+<rectangle x1="-2.3275" y1="-1.9625" x2="-0.2125" y2="-1.5525" layer="51" rot="R270"/>
+<rectangle x1="-3.5975" y1="-1.9625" x2="-1.4825" y2="-1.5525" layer="51" rot="R270"/>
+<rectangle x1="0.2125" y1="-1.9625" x2="2.3275" y2="-1.5525" layer="51" rot="R270"/>
+<rectangle x1="1.4825" y1="-1.9625" x2="3.5975" y2="-1.5525" layer="51" rot="R270"/>
+<rectangle x1="1.4825" y1="1.5525" x2="3.5975" y2="1.9625" layer="51" rot="R90"/>
+<rectangle x1="0.2125" y1="1.5525" x2="2.3275" y2="1.9625" layer="51" rot="R90"/>
+<rectangle x1="-1.0575" y1="1.5525" x2="1.0575" y2="1.9625" layer="51" rot="R90"/>
+<rectangle x1="-2.3275" y1="1.5525" x2="-0.2125" y2="1.9625" layer="51" rot="R90"/>
+<rectangle x1="-3.5975" y1="1.5525" x2="-1.4825" y2="1.9625" layer="51" rot="R90"/>
+<wire x1="-3.2" y1="2.7" x2="-4.8" y2="2.7" width="0.1524" layer="21"/>
+<wire x1="-4.8" y1="2.7" x2="-4.8" y2="-2.7" width="0.1524" layer="21"/>
+<wire x1="-4.8" y1="-2.7" x2="-3.2" y2="-2.7" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="-2.7" x2="4.8" y2="-2.7" width="0.1524" layer="21"/>
+<wire x1="4.8" y1="-2.7" x2="4.8" y2="2.7" width="0.1524" layer="21"/>
+<wire x1="4.8" y1="2.7" x2="3.2" y2="2.7" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="2.9" x2="0.6" y2="3.4" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="3.4" x2="-0.6" y2="3.4" width="0.1524" layer="21"/>
+<wire x1="-0.6" y1="3.4" x2="-0.6" y2="2.9" width="0.1524" layer="21"/>
+<circle x="3.6" y="3.1" radius="0.1" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -6510,7 +6500,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </device>
 </devices>
 </deviceset>
-<deviceset name="CORTEX_DEBUG_MINIMUM" prefix="J">
+<deviceset name="CORTEX_JTAG_DEBUG_MINIMUM" prefix="J">
 <description>&lt;h3&gt;Cortex Debug Connector - 10 pin&lt;/h3&gt;
 &lt;p&gt;Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.
 PTH and SMD connector options available.&lt;/p&gt;
@@ -6524,19 +6514,6 @@ PTH and SMD connector options available.&lt;/p&gt;
 <gate name="G$1" symbol="CORTEX_DEBUG_MINIMUM" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="_SMD" package="SAMTECH_FTSH-105-01">
-<connects>
-<connect gate="G$1" pin="!RESET" pad="10"/>
-<connect gate="G$1" pin="GND" pad="3 5 9"/>
-<connect gate="G$1" pin="SWDCLK" pad="4"/>
-<connect gate="G$1" pin="SWDIO" pad="2"/>
-<connect gate="G$1" pin="SWO" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="_PTH_NS" package="2X5-PTH-1.27MM-NO_SILK">
 <connects>
 <connect gate="G$1" pin="!RESET" pad="10"/>
@@ -6561,6 +6538,21 @@ PTH and SMD connector options available.&lt;/p&gt;
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="_SMD" package="2X5-SMD-1.27MM">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="10"/>
+<connect gate="G$1" pin="GND" pad="3 5 9"/>
+<connect gate="G$1" pin="SWDCLK" pad="4"/>
+<connect gate="G$1" pin="SWDIO" pad="2"/>
+<connect gate="G$1" pin="SWO" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14468" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -12338,7 +12330,7 @@ a single axis towards the center of the module by 3 mil. This places the PTH's c
 <part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
-<part name="J11" library="SparkFun-Connectors" deviceset="CORTEX_DEBUG_MINIMUM" device="_PTH_NS" value="CORTEX_DEBUG"/>
+<part name="J11" library="SparkFun-Connectors" deviceset="CORTEX_JTAG_DEBUG_MINIMUM" device="_PTH_NS" value="CORTEX_DEBUG"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -12412,7 +12404,7 @@ a single axis towards the center of the module by 3 mil. This places the PTH's c
 <wire x1="147.32" y1="35.56" x2="147.32" y2="104.14" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="104.14" x2="147.32" y2="137.16" width="0.1524" layer="97" style="longdash"/>
 <text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
-<text x="167.64" y="10.16" size="2.54" layer="94">N. Seidle</text>
+<text x="166.624" y="11.43" size="2.54" layer="94">N. Seidle</text>
 <wire x1="147.32" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="97" style="longdash"/>
 <text x="198.374" y="133.096" size="2.54" layer="94" ratio="15" align="center">SWD Program/Debug Interface</text>
 <text x="198.12" y="99.06" size="2.54" layer="94" ratio="15" align="center">Headers</text>
@@ -12589,16 +12581,16 @@ a single axis towards the center of the module by 3 mil. This places the PTH's c
 <attribute name="VALUE" x="48.26" y="25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="Y2" gate="G$1" x="33.02" y="76.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.02" y="79.756" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="36.068" y="70.612" size="1.778" layer="96" font="vector" align="top-center"/>
+<attribute name="NAME" x="37.338" y="79.502" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="42.418" y="74.168" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="C12" gate="G$1" x="27.94" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.336" y="71.374" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="23.876" y="68.58" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="C13" gate="G$1" x="27.94" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.082" y="78.994" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="23.622" y="76.2" size="1.778" layer="96" font="vector" rot="MR180"/>
+<instance part="C13" gate="G$1" x="27.94" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.082" y="81.534" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="23.622" y="78.74" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
 <instance part="GND35" gate="1" x="20.32" y="66.04" smashed="yes">
 <attribute name="VALUE" x="20.32" y="65.786" size="1.778" layer="96" align="top-center"/>
@@ -12855,8 +12847,8 @@ a single axis towards the center of the module by 3 mil. This places the PTH's c
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="78.74" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="81.28" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="71.12" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
@@ -13195,11 +13187,14 @@ a single axis towards the center of the module by 3 mil. This places the PTH's c
 <net name="N$8" class="0">
 <segment>
 <pinref part="Y2" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="78.74" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
-<junction x="33.02" y="78.74"/>
 <pinref part="U1" gate="U1" pin="XI"/>
+<wire x1="35.56" y1="78.74" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="78.74" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<junction x="33.02" y="81.28"/>
 </segment>
 </net>
 <net name="~A3" class="0">
