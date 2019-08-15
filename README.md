@@ -23,6 +23,7 @@ Documentation
 * **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)
 * **[Ambiq Apollo3 SDK SetUp](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)
 * **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)
+* **[CH340E USB to serial IC Drivers](https://www.sparkfun.com/ch340)
 
 License Information
 -------------------
