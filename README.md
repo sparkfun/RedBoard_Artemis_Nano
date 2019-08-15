@@ -1,9 +1,9 @@
 SparkFun RedBoard Artemis Nano
 ============================
 
-[![SparkFun RedBoard Artemis Nano](https://cdn.sparkfun.com/assets/parts/1/4/0/1/8/15443-SparkFun_RedBoard_Artemis_Nano-01.jpg)
-[*SparkFun RedBoard Artemis Nano (DEV-15443)*](https://www.sparkfun.com/products/15443)
+![SparkFun RedBoard Artemis Nano](https://cdn.sparkfun.com/assets/parts/1/4/0/1/8/15443-SparkFun_RedBoard_Artemis_Nano-01.jpg)
 
+[*SparkFun RedBoard Artemis Nano (DEV-15443)*](https://www.sparkfun.com/products/15443)
 
 We like to joke the Artemis Nano is a party on the front and business on the back. And that's by design! All the important LEDs, connectors, labels, and buttons are presented on the front for the best user experience with all the supporting circuitry on the rear of the board. The RedBoard Artemis Nano is a minimal but extremely handy implementation of the Artemis module. A light weight, 0.8mm thick PCB, with on board lipo-battery charging and a Qwiic connector, this board is easy to implement into very small projects. A dual row of ground connections make it easy to add lots of buttons, LEDs, and anything that requires its own GND connection. At the same time, the board is breadboard compatible! 
 
