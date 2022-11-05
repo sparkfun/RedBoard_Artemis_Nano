@@ -1,7 +1,7 @@
 SparkFun RedBoard Artemis Nano
 ============================
 
-![SparkFun RedBoard Artemis Nano](https://cdn.sparkfun.com/assets/parts/1/4/0/1/8/15443-SparkFun_RedBoard_Artemis_Nano-01.jpg)
+![SparkFun RedBoard Artemis Nano](https://cdn.sparkfun.com//assets/parts/1/4/0/1/8/15443-SparkFun_RedBoard_Artemis_Nano-05.jpg)
 
 [*SparkFun RedBoard Artemis Nano (DEV-15443)*](https://www.sparkfun.com/products/15443)
 
