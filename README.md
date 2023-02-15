@@ -20,6 +20,7 @@ Repository Contents
 Documentation
 -------------------
 * **[Hookup Guide for the RedBoard Artemis Nano](https://learn.sparkfun.com/tutorials/hookup-guide-for-the-sparkfun-redboard-artemis-nano)**
+* **[Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/15443_sfe_redboard_artemis_nano.fzpz)** - Fritzing diagrams for SparkFun products.
 * **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)**
 * **[Ambiq Apollo3 SDK SetUp](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)**
 * **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)**
